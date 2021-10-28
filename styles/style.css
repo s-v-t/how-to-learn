@@ -18,24 +18,39 @@
   /* выше установили ограничения для секции */
   background-color: #f2f2f2;
   position: relative;
+  display: flex;
 }
 .logo{
-  padding-left: 64px;
+  width: 183px;
+  height: 32px;
 }
 .logo__place_header{
-  padding-top: 30px;;
+  position: absolute;
+  top: 30px;
+  left: 64px;
 }
 
 .header__title{
-display: flex;
-align-items: center;
+width: 730px;
+flex-direction: row;
+justify-content: flex-start;
+align-self: center;
 text-align: left;
 font-size: 102px;
 font-weight: bold;
+line-height: 96px;
 padding-left: 64px;
+z-index: 4;
 }
 .header__subtitle{
-  padding-left: 64px;
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  z-index: 5;
 }
 .header__link{
   color: #2f80ed;
