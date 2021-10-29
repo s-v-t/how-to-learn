@@ -82,3 +82,52 @@ z-index: 4;
   margin-right: 0;
   margin-top: 80px;
 }
+.content{
+  padding: 0;
+  margin: 0;
+}
+.description{
+  margin: 0;
+  padding: 0;
+  background-color: aquamarine;
+}
+.two-columns{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin:0 auto;
+}
+.two-columns__paragraf{
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+}
+.two-columns__paragraf_bottom{
+  margin-bottom: 30px;
+}
+
+.two-columns__paragraf_top{
+  margin-top: 30px;
+  }
+
+.two-columns__span-accent{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+}
+  
+.two-colums__brief{
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  color: #2f80ed;
+  font-weight: normal;
+}
+.two-columns__main-text{
+  width: 80%;
+  min-width: 784px;
+  list-style-type: none;
+}
