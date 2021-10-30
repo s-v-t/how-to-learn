@@ -54,6 +54,7 @@ z-index: 4;
 }
 .header__link{
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration{
@@ -65,7 +66,6 @@ z-index: 4;
   z-index: 2;  
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -334,4 +334,7 @@ margin-top: 80px;
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+a:hover{
+  color:#1ac9ff;
 }
