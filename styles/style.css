@@ -339,7 +339,7 @@
   margin: 0 0 20px 0;
 }
 
-.footer__column-links_decoration{
+.footer__column-link{
   text-decoration: none;
   color: white;
   line-height: 30px;
@@ -353,6 +353,6 @@
   margin-right: 10px;
 }
 
-.feynman__link:hover, .footer__column-links_decoration:hover, .header__link:hover{
+.feynman__link:hover, .footer__column-link:hover, .header__link:hover{
   color:#1ac9ff;
 }
